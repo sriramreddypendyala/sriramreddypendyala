@@ -86,9 +86,7 @@ def search():
     return jsonify(final_data)        
 
 @app.route('/')
-def hello_world():
-    return 'Hello, World!'
 
-
-
-
+def hello():
+    return ' Enter \search? (and query )'
+    # return search()
